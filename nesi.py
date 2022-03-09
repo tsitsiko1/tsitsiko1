@@ -92,8 +92,7 @@ tf.strings.reduce_join(chars, axis=-1).numpy()
 def text_from_ids(ids):
   return tf.strings.reduce_join(chars_from_ids(ids), axis=-1)
 
-! pip install -U mosestokenizer
-! pip install utils
+
 
 from mosestokenizer import *
 import torch
